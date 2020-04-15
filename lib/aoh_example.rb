@@ -17,9 +17,12 @@ def literal_aoh
   # Using Array literal syntax only, build a nested array that uses the data in
   # held in the constants
   assembled_aoh
+  # I'm sorry, I have no idea what you're looking for here.
 end
 
 def aoh_lookup(aoh, row, key)
+  lookup = aoh[row][key]
+  lookup
 end
 
 def aoh_update(aoh, row, key, new_value)
